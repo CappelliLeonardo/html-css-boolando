@@ -19,3 +19,109 @@ html{
     max-width: 1200px;
     margin: 0 auto;
 }
+
+img{
+    width: 100%;
+}
+
+/*
+HEADER
+*/
+
+header{
+    background-color: orange;
+    width: 100%;
+    position: fixed;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav li{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav a{
+    padding: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+
+.select-section, .menu-section{
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo{
+    width: 20%;
+}
+
+/*
+MAIN
+*/
+
+main{
+    padding-top: 80px;
+}
+
+.product-container{
+    width: calc(100% / 3);
+}
+
+.product-img :nth-child(2){
+    display: none;
+}
+
+.product-view:hover .uovo{
+    display: block;
+}
+.discount{
+    background-color: red;
+    color: white;
+}
+
+.sust-banner{
+    background-color: green;
+    color: white;
+}
+
+.img-icon{
+    padding: 5px;
+    font-weight: bold;
+    margin-right:5px;
+}
+
+.product-view{
+    position: relative;
+}
+.discount-position{
+    position: absolute;
+    bottom: 10%;
+}
+
+.wishlist{
+    position: absolute;
+    right: 0%;
+    top: 10px;
+    background-color: white;
+    padding: 10px;
+}
+
+.product-description{
+    font-weight: bolder;
+}
+.red-price{
+    color: red;
+    font-weight: bold;
+}
+
+.old-price{
+    text-decoration: line-through;
+}
