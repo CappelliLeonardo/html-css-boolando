@@ -24,6 +24,11 @@ img{
     width: 100%;
 }
 
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
 /*
 HEADER
 */
@@ -53,7 +58,13 @@ header{
     color: white;
 }
 
+ul .select-section{
+    justify-content: flex-start;
+}
 
+ul .menu-section{
+    justify-content: flex-end;
+}
 .select-section, .menu-section{
     width: 25%;
     display: flex;
@@ -192,4 +203,30 @@ main{
 }
 #img6b{
     display: none;
+}
+
+/* FOOTER  */
+
+Footer{
+    background-color:#1A1A1A;
+}
+
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    color: white;
+}
+
+.left-footer-UL{
+    display: flex;
+    justify-content: space-around;
+}
+.right-footer-UL{
+    display: flex;
+    justify-content: space-around;
+}
+.left-footer-UL li, .right-footer-UL li{
+    list-style-type: none;
 }
