@@ -32,6 +32,7 @@ header{
     background-color: orange;
     width: 100%;
     position: fixed;
+    z-index: 1;
 }
 .nav ul{
     display: flex;
@@ -71,17 +72,16 @@ main{
     padding-top: 80px;
 }
 
+.my-row{
+    display: flex;
+    flex-wrap: wrap;
+}
 .product-container{
-    width: calc(100% / 3);
+    width: calc((100% / 3) - 10px);
+    display: inline-block;
+    margin: 5px;
 }
 
-.product-img :nth-child(2){
-    display: none;
-}
-
-.product-view:hover .uovo{
-    display: block;
-}
 .discount{
     background-color: red;
     color: white;
@@ -124,4 +124,72 @@ main{
 
 .old-price{
     text-decoration: line-through;
+}
+
+/* HOVER  */
+
+.product-img:hover #img1a{
+    display: none;
+}
+
+.product-img:hover #img1b{
+    display: block;
+}
+#img1b{
+    display: none;
+}
+
+.product-img:hover #img2a{
+    display: none;
+}
+
+.product-img:hover #img2b{
+    display: block;
+}
+#img2b{
+    display: none;
+}
+
+.product-img:hover #img3a{
+    display: none;
+}
+
+.product-img:hover #img3b{
+    display: block;
+}
+#img3b{
+    display: none;
+}
+
+.product-img:hover #img4a{
+    display: none;
+}
+
+.product-img:hover #img4b{
+    display: block;
+}
+#img4b{
+    display: none;
+}
+
+.product-img:hover #img5a{
+    display: none;
+}
+
+.product-img:hover #img5b{
+    display: block;
+}
+#img5b{
+    display: none;
+}
+
+.product-img:hover #img6a{
+    display: none;
+}
+
+.product-img:hover #img6b{
+    display: block;
+}
+#img6b{
+    display: none;
 }
