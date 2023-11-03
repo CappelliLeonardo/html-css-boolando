@@ -221,12 +221,18 @@ Footer{
 
 .left-footer-UL{
     display: flex;
-    justify-content: space-around;
+    padding-top: 15px;
 }
+
 .right-footer-UL{
     display: flex;
     justify-content: space-around;
+    padding-top: 15px;
 }
 .left-footer-UL li, .right-footer-UL li{
     list-style-type: none;
+}
+
+.link1, .link2, .link3{
+    margin-right: 20px;
 }
